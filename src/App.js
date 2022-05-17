@@ -6,6 +6,8 @@ import { StateField } from "@codemirror/state";
 import { EditorView } from "@codemirror/basic-setup";
 import { showTooltip } from "@codemirror/view";
 
+// This is a codemirror trier project
+
 export default function App() {
   const [value, setValue] = React.useState("");
   const editor = React.useRef();
