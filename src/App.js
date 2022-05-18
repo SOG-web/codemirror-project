@@ -72,7 +72,7 @@ export default function App() {
         }}
         ref={editor}
         onClick={(value) => {
-          // console.log(value);
+          // console.log(editor);
           console.log(
             editor.current.view.observer.selectionRange.focusNode.innerText
           );
